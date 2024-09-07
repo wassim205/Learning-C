@@ -1,7 +1,7 @@
 /*
 
 Challenge 7 : Nombre entier à trois chiffres en ordre inverse
-Écrivez un programme C pour afficher un nombre entier à trois chiffres dans l'ordre inverse sans utiliser la boucle.
+Écrivez un programme C pour afficher un nombre entier à trois chiffres dans l"ordre inverse sans utiliser la boucle.
 Par exemple, si le nombre entier est 234, son inverse est 432.
 
 */
@@ -24,7 +24,7 @@ int main(){
     c = nombre % 10; //الوحدات 
 
 
-    printf("L\'inverse c\'est: %d%d%d ", c, b, a);
+    printf("L\"inverse c\"est: %d%d%d ", c, b, a);
 
     return 0;
 }
@@ -43,7 +43,7 @@ int main(){
     printf("Entrez 3 chiffre vous voudrais les inverser: ");
     fgets(nombre, 10, stdin);
     
-    printf("L\'inverse c\'est: %s ", strrev(nombre));
+    printf("L\"inverse c\"est: %s ", strrev(nombre));
 
     return 0;
 }

@@ -25,7 +25,7 @@ int main(){
     moyenne = somme / 4;
 
     printf("\nla somme des quatre est: %d", somme);
-    printf("\nla moyenne c\'est: %d", moyenne);
+    printf("\nla moyenne c\"est: %d", moyenne);
 
 
 

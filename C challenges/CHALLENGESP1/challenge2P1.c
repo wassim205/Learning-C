@@ -6,7 +6,7 @@ int main(){
     int Celsius;
     int Fahrenheit;
 
-    printf("qu\'il type de temperature vous voudrais la changer?\n");
+    printf("qu\"il type de temperature vous voudrais la changer?\n");
     scanf("%s", &temperatype);
    
     if(strcmp(temperatype, "Celsius") == 0){
